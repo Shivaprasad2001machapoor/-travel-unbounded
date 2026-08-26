@@ -60,7 +60,7 @@ export default function Navbar() {
           Travel <span className="text-amber-400">Unbounded</span>
         </Link>
 
-        <div className="hidden items-center gap-8 md:flex">
+        <div className="hidden items-center gap-7 md:flex">
 
           <Link
             href="/"
@@ -74,6 +74,13 @@ export default function Navbar() {
             className="transition hover:text-amber-400"
           >
             About
+          </Link>
+
+          <Link
+            href="/ai-travel-agent"
+            className="font-semibold text-amber-400 transition hover:text-amber-300"
+          >
+            AI Travel Agent
           </Link>
 
           <Link
@@ -121,14 +128,22 @@ export default function Navbar() {
           )}
 
           <Link
-            href="/contact"
+            href="/ai-travel-agent"
             className="rounded-full bg-amber-400 px-5 py-2.5 font-semibold text-slate-950 transition hover:bg-amber-300"
           >
-            Plan Your Trip
+            Plan with AI
           </Link>
 
         </div>
+
+        <Link
+          href="/ai-travel-agent"
+          className="rounded-full bg-amber-400 px-4 py-2 text-sm font-semibold text-slate-950 transition hover:bg-amber-300 md:hidden"
+        >
+          Plan with AI
+        </Link>
       </div>
     </nav>
   );
 }
+

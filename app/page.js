@@ -44,10 +44,10 @@ export default function Home() {
 
               <div className="mt-9 flex flex-wrap gap-4">
                 <Link
-                  href="/contact"
+                  href="/ai-travel-agent"
                   className="rounded-full bg-amber-400 px-7 py-3.5 font-bold text-slate-950 transition hover:bg-amber-300"
                 >
-                  Plan Your Trip
+                  Plan with AI
                 </Link>
 
                 <a
@@ -93,10 +93,10 @@ export default function Home() {
             </p>
 
             <Link
-              href="/contact"
+              href="/ai-travel-agent"
               className="mt-8 inline-block rounded-full bg-slate-950 px-7 py-3.5 font-bold text-white transition hover:bg-slate-800"
             >
-              Start Planning
+              Start Planning with AI
             </Link>
           </div>
         </section>
